@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chikkamagalur Diaries</title>
+  <style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.8;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    transition: background 0.3s, color 0.3s;
+  }
+
+  h1, h2 {
+    text-align: center;
+    color: #2e8b57;
+  }
+
+  h2 {
+    margin-top: 40px;
+    color: #3c3c3c;
+  }
+
+  p, li {
+    font-size: 1.05rem;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  .highlight {
+    background-color: #dfffe0;
+    padding: 5px;
+    border-left: 5px solid #2e8b57;
+  }
+
+  .diary-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: background 0.3s, box-shadow 0.3s;
+  }
+
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .image-gallery figure {
+    margin: 0;
+    text-align: center;
+  }
+
+  .image-gallery img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+  }
+
+  .footer {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+    margin-top: 50px;
+  }
+
+  button {
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #276b48;
+  }
+
+  /* --- DARK MODE --- */
+  body.dark-mode {
+    background: #121212;
+    color: #e0e0e0;
+  }
+
+  body.dark-mode .diary-section {
+    background: #1e1e1e;
+    box-shadow: 0 2px 6px rgba(255,255,255,0.05);
+  }
+
+  body.dark-mode h1, body.dark-mode h2 {
+    color: #90ee90;
+  }
+
+  body.dark-mode .highlight {
+    background-color: #1c3320;
+    border-left: 5px solid #90ee90;
+  }
+
+  body.dark-mode .footer {
+    color: #aaa;
+  }
+
+  body.dark-mode .image-gallery img {
+    box-shadow: 0 4px 12px rgba(255,255,255,0.08);
+  }
+
+  body.dark-mode button {
+    background-color: #90ee90;
+    color: #111;
+  }
+
+  body.dark-mode button:hover {
+    background-color: #7ed87e;
+  }
+
+  /* Toggle Switch */
+  .theme-toggle {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .theme-toggle button {
+    background-color: #555;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+
+  .theme-toggle button:hover {
+    background-color: #333;
+  }
+
+  body.dark-mode .theme-toggle button {
+    background-color: #bbb;
+    color: #111;
+  }
+
+  body.dark-mode .theme-toggle button:hover {
+    background-color: #ddd;
+  }
+</style>
+
+
+</head>
+<body>
+<div class="theme-toggle">
+  <button onclick="toggleTheme()">🌞 Toggle Theme 🌙</button>
+</div>
+
+  <div class="diary-section">
+    <h1>Chikmagalu Diaries</h1>
+    <h2>Letting Go, Making Memories... A Chikkamagaluru road trip to remember..</h2>
+    <p>As a new mom, the idea of taking break felt like its impossible. So when my husband asked to join in trip with his office friends , my first reaction was a big No....</p>
+    <p>Leaving my one-year-old baby behind ???</p>
+    <p>I couldn't imagine leaving my baby - not even for a day, but somewhere deep down, I also knew that this is much needed break.....Just to relax & Enjoy the nature....That's ok. After much thinking, we thought of taking her along. But fate had other plan she's having a cough and that very night it became worse...Watching her struggle and been cranky, confirmed our decision. She needs rest...</p>
+    <p>Thankfully Mom stepped, a said "Go" she with quite tone with a heavy heart we left with mom, we packed our bags and hit the road.</p>
+  </div>
+
+  <div class="diary-section">
+    <h2>Day 1</h2>
+    <ul>
+      <li>We have started our journey from hyderabad in the early hours, two cars packed with laughter, snacks and sleepy but exited faces. There were six of us on this trip. A long drive stretching over 12 hrs, roughly 650 km we took couple of breaks along the way. One for breakfast somewhere near kurnool and other for lunch in Ballary, had lunch and started again. Evening the other one for Snack time....</li>
+      <li>After nearly 15 hours of travel, we finally reached our destination - Chikkamagaluru - at 11 PM ...</li>
+      <li>Surprisingly we had only choice to eat pizza. No Restaurants were opened at the time..</li>
+    </ul>
+  </div>
+<div class="image-gallery">
+  <figure>
+    <img src="day1_0.jpeg" alt="Day 1 - Journey starts" width="300">
+  </figure>
+  <figure>
+    <img src="day1_1.jpg" alt="Day 1 - On the road" width="300">
+  </figure>
+</div>
+
+
+  <div class="diary-section">
+    <h2>Day 2</h2>
+    <p>The Early in the Morning in cool breeze where birds shrimp we started our journey to Lake ... Enjoyed, captured Memories. After soaking in peaceful vibes, we headed to our next step - Mullayangiri; hills, the highest peak in Karnataka. There we had some hot tomato bath and Maggi - the hill station comfort food..</p>
+    <p>The view from Mullayangiri was absolutely breathtaking, with clouds floating all around us. We took a jeep ride as a part of the way & then did a bit trekking to reach the hilltop temple. The effort was totally worth it, Surrounded by mist and greenery, it felt like standing on top of world !!!</p>
+    <p>After descending, we stopped for lunch & had Some flavorful egg fried rice. Post lunch, we made our way to Jhari waterfall. All six of us squeezed into one jeep, which made for a bumpy yet super adventurous ride. The waterfall was beautiful & we had a great there, though it was bit sad as one of our friends got hurt near rocks. Thankfully, nothing too serious, we still managed to click some amazing pictures before heading back ....</p>
+    <p>We returned to the hotel to freshen up and then set out for dinner. Unfortunately, three restaurants had no food available, which was disappointing. So, with heavy hearts and hungry stomachs ..We retuned to hotel and ended up ordering pizza again.</p>
+    <p>A small highlight there - I got to drive my friend's Harrier, wow, that car is super cool.</p>
+    <p>Then played UNO till Midnight - a perfect way to chill after a long day. Followed by a relaxed 5-hr sleep.</p>
+  </div>
+<div class="image-gallery">
+  <figure>
+    <img src="day2_0.jpg" alt="Day 2 - Lake view" width="300">
+  </figure>
+  <figure>
+    <img src="day2_1.jpg" alt="Day 2 - Mullayangiri peak" width="300">
+  </figure>
+</div>
+
+  <div class="diary-section">
+    <h2>Day 3</h2>
+    <p>Bit concern, as our friend who got hurt near the waterfall the previous day was advised by the doctor to take rest. So, we left her and her brother behind at the hotel, and the rest of us set off for the day’s adventure.</p>
+    <p>Our first destination was the beautiful and remote Hebbe Falls. It's quite a distance from the city, but that didn’t stop us! All 13 of us packed into a single jeep, and surprisingly, the ride turned out to be quite enjoyable. The route was bumpy and wild, but the energy kept us going.</p>
+    <p>After a long ride, we finally reached the point where vehicles stop, and from there, it was a short trek through coffee plantations to reach the falls. The trail was refreshing—lush greenery all around. It felt like nature was recharging us. We took lots of photos near the waterfall, enjoyed the moment, and then made our way back.</p>
+    <p>But the day wasn’t over yet...</p>
+    <p>Next came the most adventurous part of the trip—the trek to Z Point. This turned out to be something truly unforgettable, a memory for life. The trek was about 3 km one way, and it tested us, physically and mentally.</p>
+    <p>On the way, something unexpected happened—leeches got on me and a other. It freaked us out quite a bit, and for a moment, fear kicked in. But we didn’t give up. The trail itself was mesmerizing—with deep valleys visible along the edge of the path, reminding us of how small we are in front of nature.</p>
+    <p>Despite the fear and the climb, reaching Z Point was worth every step. The view, the breeze, the feeling—it was pure magic..</p>
+    <p>On the way back to the hotel, we stopped at a small shop for some snacks. And that’s when something unexpectedly hilarious happened. A local family was having coffee, and when the wife made a funny sound while sipping it, her husband mimicked her perfectly. The way he did it had all of us laughing uncontrollably—it was one of those spontaneous, silly moments that became one of the most cherished memories of the trip.</p>
+    <p>We decided to try something local and famous—Donne Biryani, a spicy Karnataka specialty. We found a place, ordered two plates to start, and it was absolutely delicious! We went to order more... but sadly, the food was over. The disappointment was real, but at least we got a taste!</p>
+    <p>We returned to the hotel, ended the night with another round of UNO, and called it a day—tired, satisfied, and full of memories.</p>
+  </div>
+<div class="image-gallery">
+  <figure>
+    <img src="day3_0.jpg" alt="Day 3 - Hebbe Falls" width="300">
+  </figure>
+  <figure>
+    <img src="day3_1.jpg" alt="Day 3 - Jeep ride to falls" width="300">
+  </figure>
+  <figure>
+    <img src="day3_2.jpg" alt="Day 3 - Z Point Trek" width="300">
+  </figure>
+  <figure>
+    <img src="day3_3.jpg" alt="Day 3 - Z Point View" width="300">
+  </figure>
+</div>
+
+  <div class="diary-section">
+    <h2>Day 4 – The Journey Back & A Heartfelt Homecoming</h2>
+    <p>Day 4 was all about the long journey back home. We started early, around 7 in the morning, knowing it was going to be a full day on the road. With multiple breaks, heavy traffic, and a car full of laughter and memories, we made the most of every mile.</p>
+    <p>One of the best moments was when I got behind the wheel—driving through scenic routes, humming along to some mellow melody songs playing in the background. It was calm, cozy, and just the perfect road trip vibe.</p>
+    <p>As we passed through Ballary city, we hit some heavy traffic, but that didn't stop us. We took a break there to grab some lunch, and then continued our drive again. The road was long, but the conversations and gossip with friends made the time fly. Everyone was relaxed, chatting away, and just soaking in those final hours together.</p>
+    <p>When it was time for dinner, we stopped at Food Pyramid, enjoyed a quick meal, and then hit the road one last time. Finally, after hours of travel, we reached home around midnight.</p>
+    <p class="highlight">And then came the most emotional part of the trip.</p>
+    <p>As I walked in, the baby was drinking milk, and the moment she saw me, her eyes lit up like she had been waiting all day. It was as if she was saying, “My mom is back!” That one look brought tears to my eyes. I couldn’t hold back—she ran straight to her dad and gave him the warmest hug.</p>
+    <p>That moment sealed it all—a trip full of laughter, nature, adventure, and love.</p>
+    <p>I assumed I'd feel like outsider among his friends ,but everyone were warm and friendly .. !!</p>
+    <p>Chikkamagalur, you gave us memories we’ll cherish forever. 🌿🚗💚</p>
+  </div>
+<div class="image-gallery">
+  <figure>
+    <img src="day4_0.jpg" alt="Day 4 - Scenic drive" width="600">
+  </figure>
+</div>
+
+  <div class="footer">
+    <p>— End of Trip Diary —</p>
+<p>— A Blog by Paavani —</p>
+    <button onclick="alert('Thanks for reading our story!')">Say Hello 👋</button>
+  </div>
+<script>
+  function toggleTheme() {
+    document.body.classList.toggle('dark-mode');
+    const mode = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
+    localStorage.setItem('theme', mode);
+  }
+
+  // On page load, apply saved theme
+  window.onload = () => {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+      document.body.classList.add('dark-mode');
+    }
+  };
+</script>
+
+</body>
+</html>
